@@ -1,7 +1,8 @@
 # Instalación de la interface
 
 requerimiento:
-	version php -> ^5.6.30
+	version php -> >=5.6.30
+	apache server -> importante tener instalado el servidor apache
 
 archivo config:
 	application/constants.php -> modificar la constante URL, reemplazar por la url de su proyecto interfaceChoho.
