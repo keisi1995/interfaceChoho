@@ -13,7 +13,7 @@
 				<div class="box-body">
 					<div class="form-group">
 						<div class="col-md-4 col-sm-12 col-xs-12">
-							<label class="control-label col-md-4 col-sm-12 col-xs-12" for="first-name" style="text-align:left !important;">Asesor:</label>
+							<label class="control-label col-md-4 col-sm-12 col-xs-12" for="first-name" style="text-align:left !important;">ASESOR:</label>
 							<div class="col-md-8 col-sm-12 col-xs-12 form-group has-feedback">
 								<select class="select2_single form-control" tabindex="-1" id="cbxAsesor_filtro" name="cbxAsesor_filtro">
 								</select>

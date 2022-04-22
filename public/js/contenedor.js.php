@@ -5,6 +5,11 @@ $(document).ready(function (){
 	$.jgrid.defaults.styleUI = 'Bootstrap';
 });
 
+/**
+ * @param  {[String]} id del elemento divGrid table html 
+ * @param  {[String]} id del elemento jqGrid table html
+ * @param  {Boolean} define el alto de la columna del table
+ */
 function fnEstiloGrid(wdivgrid, wjqgrid, walto=false) {    
 	$('#'+wdivgrid+' table thead').addClass('tbl_titulo');
 	if (walto == true) {$('#'+wdivgrid+' table thead tr th div').css('height', '35px');}
@@ -12,7 +17,11 @@ function fnEstiloGrid(wdivgrid, wjqgrid, walto=false) {
 	$('#'+wjqgrid).jqGrid('setFrozenColumns');
 }
 
-
+/**
+ * @param  {[String]} id del elemento html
+ * @param  {[Integer]} id tip de listado para ejecutar el store combobox
+ * @param  {String} valor por defecto del combobox
+ */
 function fnCbxGeneral(element, tip, valDefault='SELECCIONE') {
 	var objGeneral = fnDataGeneral();
 	$.ajax({

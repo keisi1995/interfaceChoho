@@ -1,5 +1,5 @@
 			<footer class="main-footer">
-				<strong>Copyright &copy; 2022 <a href="#">Keisi Edward Flores Medina</a>.</strong>All rights reserved.
+				<strong>Copyright &copy; <?php echo date('Y')?> <a href="#">Keisi Edward Flores Medina</a>.</strong>All rights reserved.
 			</footer>
 		</div>
 		<?php echo modalLoading($th)?>
