@@ -1,0 +1,10 @@
+default
+.sidebar-mini.sidebar-collapse .main-header .navbar{margin-left:50px}
+cambiado
+.sidebar-mini.sidebar-collapse .main-header .navbar{margin-left:0px}
+
+
+default
+.sidebar-mini.sidebar-collapse .main-footer{margin-left:50px
+cambiado
+.sidebar-mini.sidebar-collapse .main-footer{margin-left:0px
